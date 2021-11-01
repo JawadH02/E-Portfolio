@@ -267,15 +267,16 @@ LANDING PAGE
     }
 }
 
-@keyframes fadeUp {
-    0% {
-        transform: translateY(100px);
-        opacity: 0;
-    }
-    100% {
-        transform: translateY(0);
-        opacity: 1;
-    }
+.reveal {
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: all 2s ease;
+}
+
+.reveal.active {
+    transform: translateY(0px);
+    opacity: 1;
 }
 
 /* 
