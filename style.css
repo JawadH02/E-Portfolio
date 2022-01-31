@@ -103,7 +103,7 @@ textarea:focus {
 }
 
 .blue {
-  color: #ED50F1 !important;
+  color: #ed50f1 !important;
 }
 
 .link__hover-effect {
@@ -214,7 +214,7 @@ LANDING PAGE
 }
 
 .social__link {
-  background-color: #ED50F1;
+  background-color: #ed50f1;
   color: white;
   padding: 6px;
   width: 32px;
@@ -427,8 +427,8 @@ MODAL
 }
 
 .form__submit {
-  background-color: #FF00E4;
-  border: 2px solid #FF00E4;
+  background-color: #ff00e4;
+  border: 2px solid #ff00e4;
   color: #fff;
   font-weight: 700;
   width: 100%;
@@ -499,6 +499,7 @@ MODAL
   font-size: 36px;
   z-index: 100;
 }
+
 /* 
 
 PROJECTS 
