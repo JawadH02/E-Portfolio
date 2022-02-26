@@ -100,6 +100,7 @@ textarea:focus {
   margin-bottom: 12px;
   text-align: left;
   line-height: 1;
+  color: #242424;
 }
 
 .blue {
@@ -215,6 +216,7 @@ LANDING PAGE
   font-size: 24px;
   line-height: 2;
   max-width: 450px;
+  color: #242424;
 }
 
 .social__list {
@@ -320,6 +322,7 @@ nav {
 
 .nav__link--list {
   display: flex;
+  color: #242424;
   z-index: 100;
 }
 
@@ -525,6 +528,7 @@ PROJECTS
   text-align: center;
   font-size: 48px;
   margin-bottom: 60px;
+  color: #242424;
 }
 
 .project__img {
