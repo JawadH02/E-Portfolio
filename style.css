@@ -193,6 +193,13 @@ LANDING PAGE
   min-height: 100vh;
 }
 
+#canvas1 {
+  position: absolute;
+  top: 0; left: 0;
+  width: 100%;
+  height: 100%;
+}
+
 .header {
   position: absolute;
   top: 50%;
@@ -201,7 +208,9 @@ LANDING PAGE
   width: 100%;
   max-width: 1000px;
   padding: 0 30px;
+  z-index: 1;
 }
+
 .header__para {
   font-size: 24px;
   line-height: 2;
@@ -247,6 +256,7 @@ LANDING PAGE
   bottom: 20px;
   left: 50%;
   transform: translateX(-50%);
+  z-index: 1;
 }
 
 .scroll__icon {
@@ -298,6 +308,10 @@ nav {
   filter: invert(1);
 }
 
+.personal-logo__figure {
+  z-index: 100;
+}
+
 #personal-logo {
   width: 50px;
   height: 50px;
@@ -306,6 +320,7 @@ nav {
 
 .nav__link--list {
   display: flex;
+  z-index: 100;
 }
 
 .nav__link--anchor {
