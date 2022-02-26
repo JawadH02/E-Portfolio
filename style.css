@@ -454,6 +454,7 @@ MODAL
   padding: 12px 24px;
   font-size: 20px;
   transition: all 300ms ease;
+  margin-bottom: 18px;
 }
 
 .form__submit:hover {

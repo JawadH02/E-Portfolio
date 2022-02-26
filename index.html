@@ -11,6 +11,7 @@
   <script src="index.js" defer></script>
   <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
   <script type="text/javascript">
     (function () {
       emailjs.init("user_kIMIfbJhdf4ZjlDLVDNqv");
@@ -151,7 +152,7 @@
         <h4 class="modal__sub-title modal__sub-title--contact">
           I'm currently open to new opportunities.
         </h4>
-        <form id="contact__form" onsubmit="contact(event)">
+        <form id="contact__form" onsubmit="contact(event)" data-netlify-recaptcha="true" data-netlify="true">
           <div class="form__item">
             <label class="form__item--label">Name</label>
             <input type="text" class="input" name="user_name" required></input>
@@ -167,6 +168,7 @@
           <button id="contact__submit" class="form__submit">
             Send it my way
           </button>
+          <div class="g-recaptcha" data-sitekey="6Ldqm6AeAAAAAHbXV2US2w-uBBnfQOK8OyEHhBxH"></div>
         </form>
         <div class="modal__overlay modal__overlay--loading">
           <i class="fas fa-spinner"></i>
